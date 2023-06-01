@@ -1,0 +1,45 @@
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+span p {
+    margin-top: 40px;
+    margin-bottom: 0, dashed;
+}
+div {
+    font-style: italic;
+    background-color: burlywood;
+    width: 650px;
+    border: dashed;
+    padding: 10px;
+}
+ul p:first-letter{
+    font-weight: bold;
+    font-size: 25px;
+}
+ul {
+    text-align: center;
+    text-transform: capitalize;
+    margin: auto;
+    line-height: 5px;
+}
+
+.copyright {
+    text-align: center;
+}
+body {
+    background-color: brown;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em
+}
+hr {
+    border: none;
+    border-top: dashed;
+  }
+.copyright {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
