@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registr form</title>
+</head>
+<body>
+    <header>
+        Inside of header - let's add a navbar with some essential links
+     <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+     </nav>
+    </header>
+<hr>
+
+    <section>
+        <h2>Here is the main section of our page - it consists of a new articles</h2>
+        <article>
+        <h2>Article 1 - 1995 was a pretty crazy year for programming languages!</h2>
+        <p>Don't believe me? Just check this table out:</p>
+         <table>
+         <thead>
+            <tr>
+             <th>Language</th>
+             <th>Designed By</th>
+             <th>First Appeared</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+             <td>C++</td>
+             <td>Bjarne Stroustrup</td>
+             <td>1983</td>
+            </tr>
+            <tr>
+             <td>Python</td>
+             <td>Guido van Rossum</td>
+             <td>1991</td>
+            </tr>
+            <tr>
+             <td>Ruby</td>
+             <td>Yukihiro Matsumoto ("Matz")</td>
+             <td>1995</td>
+            </tr>
+            <tr>
+             <td>JavaScript</td>
+             <td>Brendan Eich</td>
+             <td>1995</td>
+            </tr>
+            <tr>
+             <td>Java</td>
+             <td>James Gosling</td>
+             <td>1995</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+             <td>PHP</td>
+             <td>Rasmus Lerdorf</td>
+             <td>1995</td>
+            </tr>
+        </tfoot>
+    </table>
+</article>
+<article>
+    <h1>Article 2 - Coming soon...</h1><br>
+</article> 
+<h2>Contact us!</h2>
+
+<form action="#">
+    <h2>General Information</h2>
+    <div>
+     <label for="fname">First name:</label>
+     <input type="text" id="fname" name="First name"><br>
+    </div>
+    <div>
+     <label for="lname">Last name:</label>
+     <input type="text" id="lname" name="Last name"><br>
+    </div>
+    <div>
+     <label for="Email">Email:</label>
+     <input type="email" id="email" name="email"><br>
+    </div>
+    <div>
+     <label for="Date Of Birth">Date Of Birth:</label>
+     <input type="date" id="DoF" name="dateBirth"><br>
+    </div>
+  
+  <h2>Essential Questions</h2>
+  <span>What kind of work do you need?</span>
+  <div>  
+   <input type="checkbox" id="vehicle1" name="vehicle1" value="Programming:">
+   <label for="vehicle1"> Programming:</label><br>
+  </div>
+  <div>
+   <input type="checkbox" id="vehicle2" name="vehicle2" value="Design:">
+   <label for="vehicle2"> Design:</label><br>
+  </div> 
+  <div>
+   <input type="checkbox" id="vehicle3" name="vehicle3" value="Singing:">
+   <label for="vehicle3"> Singing:</label><br>
+  </div>
+  <div>
+   <input type="checkbox" id="vehicle3" name="vehicle3" value="Comedy:">
+   <label for="vehicle3"> Comedy:</label><br>
+  </div>
+</form> 
+
+  <span>How interested are you in our design skills?</span>
+    <div>
+      <input type="radio" id="Very Low" name="fav_language" value="Very Low">
+      <label for="Very Low">Very Low</label><br>
+    </div>
+    <div>  
+      <input type="radio" id="Low" name="fav_language" value="Low">
+      <label for="Low">Low</label><br>
+    </div>
+    <div>  
+      <input type="radio" id="Medium" name="fav_language" value="Medium">
+      <label for="Medium">Medium</label><br>
+    </div>
+    <div>
+      <input type="radio" id="High" name="fav_language" value="High">
+      <label for="High">High</label><br>
+    </div>  
+    <div>  
+      <input type="radio" id="Very High" name="fav_language" value="Very High">
+      <label for="Very High">Very High</label><br>
+    </div>
+    <div> 
+      <input type="submit" value="Submit me!">
+    </div> 
+    </form> 
+</section>
+<footer>
+    Here is our footer - let's make sure we copyright &copy; this!
+</footer>
+</body>
+
+</html>
