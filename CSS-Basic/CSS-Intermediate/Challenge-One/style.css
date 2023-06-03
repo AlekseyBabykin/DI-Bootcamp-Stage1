@@ -1,12 +1,29 @@
 #nav {
-    position: absolute;
-    left: 0px;
     width: 200px;
-}
-#wrap {
-    position: relative;
+    background-color: grey;
     
 }
-#content{
-    margin-left: 200px;
+#content {
+    -webkit-flex: 1;
+    flex: 1;
+    background-color: blueviolet;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
 }
+
+#wrap  {
+    display: -webkit-flex;
+    display: flex;
+    background-color: blue;
+}
+#nav h3 {
+    text-align: center;
+}
+
+.copyright {
+position: relative;
+width: 1000px;
+    background-color: red;
+    left: 200px; 
+    top: 100px;
+}
+
